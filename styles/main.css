@@ -43,7 +43,7 @@ main h3{
     box-shadow: 3px 3px 4px 4px red;
     padding: 1em;
     font-size: 1.5em;
-    margin-left: 20px;
+    margin-left: 1em;
 }
 main nav{
     margin: 1.5em 2em 1.5em;
@@ -51,7 +51,7 @@ main nav{
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px pink;
     padding: 1em;
-    margin-left: 20px;
+    margin-left: 1em;
 }
 #list{
     line-height: 1.5em;
@@ -62,7 +62,7 @@ div.contact{
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px green;
     padding: 1em;
-    margin-left: 20px;
+    margin-left: 1em;
 }
 footer p.copyright{
     text-align: center;
