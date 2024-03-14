@@ -61,7 +61,7 @@ aside{
     width: 20%;
     float:right;
     background-color: #ffebc6;
-    padding: 60px
+    padding: 20px;
 }
 footer{
     clear: both;
@@ -78,5 +78,5 @@ p.fixed{
     right: 0;
     border: 3px solid darkgreen;
     background-color: lightgreen;
-    padding: 40px;
+    padding: 20px;
 }
