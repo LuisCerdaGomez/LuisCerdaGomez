@@ -9,7 +9,7 @@ body{
 	margin: 15px auto;
 	padding: 15px 1.5em;
 	border: 1px solid black;
-	border-radius: 25px;
+	border-radius: 1em;
 	box-shadow: 5px 5px 0 0;
 }
 a:focus, a:hover{
