@@ -7,29 +7,48 @@ body{
 	width: 95%;
 	background-color: white;
 	margin: 15px auto;
-	
+	padding: 15px 1.5em;
 	border: 1px solid black;
 	border-radius: 1em;
 	box-shadow: 5px 5px 0 0;
 }
-h1 {
-    clear: both;
-    padding-right: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+a:focus, a:hover{
+    font-style: italic;
+    color:greenyellow;
+    border: 3px blue;
+    border-style: dotted solid;
 }
 header{
     padding-bottom: 2em;
-    border-bottom: 2px blue;
+    border-bottom: 2px solid maroon;
+}
+header h1{
+    font-size: 175%;
+    color: maroon;
+    text-indent: 30px;
+}
+header h2{
+    font-size: 150%;
+    color: #800000;
+    text-indent: 30px;
+}
+header img{
+    float:left;
+}
+.shadow{
+    text-shadow: 2px 2px 2px rgb(128,0,0);
 }
 article{
     clear: left;
-    width: 75%;
+    width: 70%;
     float:left;
     column-count: 3;
-    column-rule: 2px dotted lightblue;
+    column-rule: 2px dotted blue;
     column-gap: 2em;
     margin-left: 2em;
+}
+article h3{
+    column-span: all;
 }
 article image{
     float:left;
@@ -40,13 +59,21 @@ article p::first-letter{
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: black;
+    color: lightgreen;
 }
 aside{
     width: 20%;
     float:right;
-    background-color: lightskyblue;
+    background-color: lightblue;
     padding: 20px;
+}
+footer{
+    clear: both;
+    border-top: 2px solid blue;
+}
+footer p.copyright{
+    text-align: center;
+    font-size: 80%;   
 }
 p.fixed{
     width: auto;
@@ -57,6 +84,7 @@ p.fixed{
     background-color: lightgreen;
     padding: 20px;
 }
+
 #nav_menu ul { list-style-type: none; }
 
 #nav_menu ul li { float: left; }
@@ -78,3 +106,4 @@ p.fixed{
 ol { list-style-type: square; }
 
 ul { list-style-type: upper-roman; }
+
