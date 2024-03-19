@@ -18,7 +18,7 @@ header{
     border-bottom: 2px solid blue;
 }
 h1{
-    font-size: 150%;
+    font-size: 100%;
     color: blue;
     text-indent: 30px;
 }
@@ -47,8 +47,6 @@ article image{
 }
 article p::first-letter{
     font-size: 3em;
-    font-weight: bold;
-    font-style: italic;
     color: black;
 }
 aside{
