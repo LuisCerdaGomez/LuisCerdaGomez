@@ -1,10 +1,32 @@
+html{
+    background-image: linear-gradient(to left, white 0%, lightblue 100%);
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width: 90%;
+	background-color: white;
+	margin: 15px auto;
+	padding: 15px 1.5em;
+	border: 1px solid black;
+	border-radius: 25px;
+	box-shadow: 5px 5px 0 0;
+}
 h1 {
     clear: both;
     padding-right: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
-
+article{
+    clear: left;
+    width: 70%;
+    float:left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
+}
 
 
 #nav_menu ul { list-style-type: none; }
