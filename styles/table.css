@@ -29,4 +29,14 @@ table.second thead tr:first-child{
 }
 table.third thread{
     background-color: lightgreen;
+}table.third th, table.third td {
+    padding: 0.7em;
+    vertical-align: top;    
+}
+table.third thead tr:first-child{     
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+}
+table.third thead tr:nth-child(2), table.third tr:last-child {     
+    border-bottom: 2px solid orangered;
 }
