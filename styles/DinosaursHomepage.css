@@ -1,6 +1,10 @@
 html {
     background-color: black;
 }
+.dotted-line {
+    border-bottom: 1px dotted black;
+    margin: 20px 0;
+}
 h1{
     text-align: center;
     
