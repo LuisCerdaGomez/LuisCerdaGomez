@@ -3,6 +3,7 @@ body h1 {
 }
 body h3{
     text-align: right;
+    text-decoration: underline;
 }
 .dotted-line {
     border-bottom: 5px dotted black;
