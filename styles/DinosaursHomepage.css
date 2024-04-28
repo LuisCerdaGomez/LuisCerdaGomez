@@ -12,9 +12,18 @@ h1{
 h2{
     text-align: center;
 }
-#nav_menu ul { list-style-type: none; }
+#nav_menu {
+    text-align: center; 
+}
+#nav_menu ul{ 
+    list-style-type: none; 
+    padding: 0; 
+}
 
-#nav_menu ul li { float: left; }
+#nav_menu ul li { 
+    float: left;
+    display: inline;
+ }
 
 #nav_menu ul li a {
     text-align: center;
