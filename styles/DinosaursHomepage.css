@@ -1,3 +1,6 @@
+html {
+    background-color: black;
+}
 #nav_menu ul { list-style-type: none; }
 
 #nav_menu ul li { float: left; }
@@ -8,8 +11,25 @@
     width: 175px;
     padding: 1em 0;
     text-decoration: none;
-    background-color: blue;
+    background-color: black;
     color: white;
     font-weight: bold;
     border-right: 2px solid white; }
 #nav_menu ul li a.lastitem { border-right: none; }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    margin-left: 500px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top:  15px;
+    padding-bottom:  15px;
+    right: 1.5em;
+    left: 1.5em;
+    border: 1px solid black ;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0;
+}
