@@ -1,7 +1,6 @@
 body h1 {
     text-align: center;
 }
-
 body h3{
     text-align: right;
     text-decoration: underline;
@@ -20,7 +19,7 @@ body {
     font-size: 100%;
     margin: 0 auto;
     width: 1000px;
-    background-color: white;
+    background-color: beige;
     margin-top: 15px;
     margin-bottom: 15px;
     padding-top:  15px;
@@ -31,6 +30,10 @@ body {
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;
 }
+.model-viewer-container {
+    display: flex;
+    justify-content: center;
+}
 html {
-    background-color: black;
+    background: linear-gradient(to bottom, white, black);
 }
