@@ -37,11 +37,21 @@ body {
 html {
     background: linear-gradient(to bottom, white, black);
 }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
 nav ul li {
-    display: inline;
     margin: 0 10px;
 }
 nav ul li a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    padding: 15px 10px;
+    background-color:burlywood;
+    border-right: 2px solid white;
 }
