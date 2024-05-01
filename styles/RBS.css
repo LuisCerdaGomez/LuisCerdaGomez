@@ -32,5 +32,5 @@ body {
     box-shadow: 5px 5px 0 0;
 }
 html {
-    background-color: black;
+    background: linear-gradient(to bottom, white, black);
 }
